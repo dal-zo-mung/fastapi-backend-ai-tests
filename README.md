@@ -2,7 +2,7 @@
 
 AI-powered educational platform featuring multiple specialized AI agents for personalized learning assistance.
 
-Try it out in your browser Url: [https://edubridgeai-backend.up.railway.app/docs#/](https://fastapi-backend-ai-tests.vercel.app/docs)
+Try it out in your browser Url: [https://edubridgeai-backend.up.railway.app/docs](https://fastapi-backend-ai-tests.vercel.app/docs)
 
 
 ## 🚀 Features
