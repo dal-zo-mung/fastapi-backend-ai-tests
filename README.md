@@ -28,8 +28,10 @@ fastapi-backend-ai-tests/
 │   ├── storage.py          # AI clients, YouTube API, and Supabase setup
 │   ├── middleware/
 │   │   └── timer.py        # Request timing middleware
+|   |   └── __init__.py
 │   └── routes/
-│       └── issues.py       # API endpoints for AI agents
+│   |   └── issues.py       # API endpoints for AI agents
+|   |   └── __init__.py
 └── .venv/                  # Virtual environment (created during setup, ignored by Git)
 ```
 
