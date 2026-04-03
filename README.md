@@ -2,6 +2,9 @@
 
 AI-powered educational platform featuring multiple specialized AI agents for personalized learning assistance.
 
+To testing via to browser! Url: [https://edubridgeai-backend.up.railway.app/docs#/](https://fastapi-backend-ai-tests.vercel.app/docs)
+
+
 ## 🚀 Features
 
 - **Roadmap Architect**: Creates structured learning paths and curricula
@@ -14,7 +17,7 @@ AI-powered educational platform featuring multiple specialized AI agents for per
 ## 📁 Project Structure
 
 ```
-EduBridge_Ai4/
+fastapi-backend-ai-tests/
 ├── main.py                 # FastAPI application entry point
 ├── requirements.txt        # Python dependencies
 ├── .env                    # Environment variables (configure API keys)
