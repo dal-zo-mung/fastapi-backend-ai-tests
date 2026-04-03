@@ -1,4 +1,4 @@
-# EduBridge AI
+# Backend Ai testing with Fastapi
 
 AI-powered educational platform featuring multiple specialized AI agents for personalized learning assistance.
 
