@@ -32,7 +32,6 @@ async def health_check():
 # Routes - Prefix သတ်မှတ်ချက်
 app.include_router(issues.router, prefix="/api/v1")
 
-# Local မှာ စမ်းသပ်ဖို့အတွက်သာ (Vercel ပေါ်မှာဆိုရင် ဒီအပိုင်းကို ကျော်သွားပါလိမ့်မယ်)
-if name == "main":
+if __name__ == "__main__":
     PORT = int(os.environ.get("PORT", 8080))
     uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
