@@ -1,13 +1,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-# app folder ထဲက file တွေကို ခေါ်ယူခြင်း
 from app.routes import issues
 from app.middleware.timer import add_process_time_header
 import os 
 import uvicorn
 
 # Vercel အတွက် အဓိကကျတဲ့ App Instance
-app = FastAPI(title="EduBridge AI API")
+app = FastAPI(title="AI")
 
 # Middleware 
 @app.middleware("http")
@@ -26,7 +25,7 @@ app.add_middleware(
 async def health_check():
     return {
         "status": "online", 
-        "message": "EduBridge AI API is running on Vercel"
+        "message": "fastapi-backend-ai-tests is running on Vercel"
     }
     
 # Routes - Prefix သတ်မှတ်ချက်
